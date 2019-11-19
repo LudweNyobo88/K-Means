@@ -1,0 +1,34 @@
+=====================================================Question============================================================================================
+*Run k-means using 3 clusters on the 1953 and 2008 datasets separately. What
+do you see?Take note of how the clusters change from 1953 to 2008.
+
+=========================================Answers========================================================================================================
+#Class 0 cluster of data2008,is mix of three clusters, consists of countries that were mostly found in Class 1 and Class 2 clusters in data1953 with few Class 0 of data1953.
+#Class 1 cluster of data2008,is pure cluster, consists of countries that are only found in Class 0 cluster in data1953.
+#Class 2 cliuster of data2008 ,is a mix of two clusters,consist of countries found in Class 0 and Class 2 clusters in data1953 and the appear to be evenly balanced. 
+#Class 0 cluster of data2008 has a birthrate between 8.1 - 20.8 and Life Expectancy between 67.9 - 82.8.(86 countries)
+#Class 1 cluster of data2008 has a birthrate between 22 -54 and Life Expentancy between 46.1 - 64.1. majority of the countries in this cluster show an increase in Life expectancy and a decrease in birthrate compared to  1953.
+
+====================================================Question=============================================================================================
+*Which countries are moving up clusters?
+====================================================Answers==============================================================================================
+#Countries like Albania,Armenia,Brazil,Chile,Costa Rica, Hong Kong China,Lebanon,etc. to mention a few have moved up two classes from Class 2 cluster in 1953 to Class 0 cluster in 2008.
+#Countries like Argentina,Belarus,Australia,Austria,Cyprus,Denmark,etc to mention a few have moved up one class from Class 1 cluster in 1953 to Class 0 cluster in 2008.
+====================================================Question=============================================================================================
+*How does (2008)South Africa” compare to “(1953)United States”?
+
+====================================================Answer===============================================================================================
+#South Africa in 2008 has a low birthrate and life expectancy than united states in 1953.
+
+====================================================Question=============================================================================================
+*Are there any 2008 countries that are in a cluster that is made up mostly of 1953 countries? Try and explain why.
+
+====================================================Answer===============================================================================================
+#yes,Class 3.These 2008 countries fall within the same birthrate and life expectancy range as the 1953 the are between 30.5 - 55.2 and 29-57.6 in birthrate and life expectancy,respectively.Which means they are closer to the same centroid as the 1953 countries in this cluster. The countries are Afghanistan,Chad,Congo Dem. Rep.,Niger and Zambia.
+
+====================================================Question=============================================================================================
+*Are there any 1953 countries that are in a cluster that is made up of
+mostly 2008 countries? Try and explain why in your text file.
+
+====================================================Answers==============================================================================================
+#yes,Class 0.These 1953 countries fall within the same birthrate and life expectancy range as the 2008 the are between 8.1 - 20.8 and 67.9 -82.8 in birthrate and life expectancy,respectively.Which means they are closer to the same centroid as the 2008 countries in this cluster.The countries are Channel Island,Norway,Sweeden and United Kingdom.
